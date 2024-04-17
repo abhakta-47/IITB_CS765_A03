@@ -269,6 +269,7 @@ def cal_config():
             "N": CONFIG.N,
             "Q": CONFIG.Q,
             "P": CONFIG.P,
+            "INITIAL_RATING_MALICIOUS": CONFIG.INITIAL_RATING_MALICIOUS,
         }
     }
     print("\nInput parameters:")
@@ -276,6 +277,8 @@ def cal_config():
 
 
 def main():
+
+    print("\n\n" + "-" * 70)
 
     cal_config()
 
